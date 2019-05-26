@@ -93,7 +93,7 @@ const Button = styled.button`
             
                     <p className="pl-5" style={{fontSize:18, color:"#fafafa"}}>{JSON.parse(user_composition.name)}</p> 
                     <Link to={userUrl}>
-                      <p className="pl-5" style={{fontSize:18, color:"#fafafa"}}>{user_composition.user.username}</p>
+                      <p className="pl-2" style={{fontSize:18, color:"#fafafa90"}}> - {user_composition.user.username}</p>
                     </Link>
 
                   </div>
@@ -137,7 +137,7 @@ const Button = styled.button`
               <Icon size={30} icon={ic_keyboard_arrow_left} style={{color: '#fff',position: "relative", top:30 , left: 10,zIndex:10}}/>
             </div> 
             <div>
-              <h4 style={{color:"#fafafa",position:"absolute", right:20, top:30, fontWeight:"bold"}}>Sound Community</h4>
+              <h4 style={{color:"#fafafa",position:"absolute", right:60, top:30, fontWeight:"bold"}}>Sound Community</h4>
             </div> 
           </div>
 

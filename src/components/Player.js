@@ -63,7 +63,7 @@ class Player extends React.Component {
     return(
       <Button className="btn" onClick={this.playCompo}>
         <Icon size={25} icon={play} style={{color: '#fafafa'}}/>  
-        <Listens listens={this.props.listens} />
+        <Listens listens={this.props.listens}/>
       </Button>
     );     
   }

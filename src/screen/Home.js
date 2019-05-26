@@ -27,6 +27,15 @@ const Container = styled.section`
     background-color: #1b1b1b;
     height: 100vh;
 `;
+const GradientImg = styled.div`
+background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2),rgba(27, 27, 27, 1));
+backgroundSize: 'cover'; 
+backgroundPosition: 'center center';
+backgroundRepeat: 'no-repeat';
+// overflow: 'hidden';
+width: 100%;
+z-index:1;
+`;
 
 const Button = styled.button`
     border-color: transparent;
@@ -259,14 +268,17 @@ changeTheme(theme) {
       }
     return (
 
-
+      // <GradientImg>
       <Container className="container">
+    
 
         <Header keyPads={this.state.keyPads}  onToggle={this.disconnect} onRecFunc={this.onRec}/>
         {/* <button  style={{width:40, height:20}} > Logout</button> */}
         <PadContainer keyPads={this.state.keyPads} subGetTrackTimesFunc={this.subGetTrackTimes}/>
-     
+
       </Container>
+      
+      // </GradientImg>s
 
 
 

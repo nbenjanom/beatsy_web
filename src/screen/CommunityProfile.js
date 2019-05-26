@@ -234,7 +234,7 @@ class CommunityProfile extends React.Component {
           </div>
 
           <div className="col-12 d-flex justify-content-center pt-4">
-           <Title2>Dernière nouvauté</Title2> 
+           <Title2>Dernières nouveautés</Title2> 
           </div>
           </div>
         

@@ -11,7 +11,7 @@ import styled, { css } from 'styled-components';
 ///////////////[ S T Y L E S ]//////////////
 
 const Container = styled.section`
-    background-color: #1b1b1b;
+    background-color: #22222;
     height: 100vh;
 `;
 

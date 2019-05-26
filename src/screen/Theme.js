@@ -147,10 +147,10 @@ class Theme extends React.Component {
                   <img src={logo_electro} alt='' style={{borderRadius:16}}/>
                 </Link>
 
-                <h1 style={{position:"absolute",  bottom: 150, left: '25%',color: "#fff", zIndex:2, fontSize:28, fontWeight:"bold"}}>Electro City</h1>
+                <h1 style={{position:"absolute",  bottom: 150, left: '25%',color: "#fff", zIndex:2, fontSize:28, fontWeight:"bold"}}>Electro Pop</h1>
                 <div style={{position:"absolute",  top: 180, left:"5%", width:"90%"}}>
-                  <p style={{color: "#fff", zIndex:10, fontSize:16}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cupiditate, voluptatum repellendus neque quae ab eveniet reprehenderit eos voluptatem, consequuntur fugiat ea perferendis qui</p>
-                  <p style={{color: "#2ecc71", fontWeight:"bold"}}>Votre package est disponible!</p>
+                  <p style={{color: "#fff", zIndex:10, fontSize:16}}>Découvrez les dernières sonorités Electro Pop du moment.</p>
+                  <p style={{color: "#2ecc71", fontWeight:"bold"}}>Votre package est disponible !</p>
                 </div>
               </div>
 
@@ -160,19 +160,19 @@ class Theme extends React.Component {
                 </Link>      
                 <h1 style={{position:"absolute",  bottom: 150, left: '25%',color: "#fff", zIndex:2, fontSize:28, fontWeight:"bold"}}>Hiphop City</h1>
                 <div style={{position:"absolute",  top: 180, left: "5%", width:"90%"}}>
-                  <p style={{color: "#fff", zIndex:10, fontSize:16}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cupiditate, voluptatum repellendus neque quae ab eveniet reprehenderit eos voluptatem, consequuntur fugiat ea perferendis qui</p>
-                  <p style={{color: "#2ecc71", fontWeight:"bold"}}>Votre package est disponible!</p>
+                  <p style={{color: "#fff", zIndex:10, fontSize:16}}>Découvrez les dernières sonorités Hiphop City du moment.</p>
+                  <p style={{color: "#2ecc71", fontWeight:"bold"}}>Votre package est disponible !</p>
                 </div>     
               </div>
 
               <div className="swiper-slide" style={{backgroundColor:'transparent',borderRadius:16}}>
                 <img src={logo_funk} alt='' style={{borderRadius:16}}/>
-                <h1 style={{position:"absolute",  bottom: 150, left: '25%',color: "#fff", zIndex:2, fontSize:28, fontWeight:"bold"}}>Funk City</h1>
+                <h1 style={{position:"absolute",  bottom: 150, left: '25%',color: "#fff", zIndex:2, fontSize:28, fontWeight:"bold"}}>Funky Old</h1>
                   <Icon size={50} icon={lock} style={{color: '#cdcdcd94',position:"absolute",  top: 35, left: "50%"}}/>  
                   <div style={{position:"absolute",  top: 180, left: "5%", width:"90%"}}>
                     <div className="d-inline-flex">
                     <Icon size={25} icon={shoppingCart} style={{color: '#cdcdcd'}}/>
-                    <p style={{color: "#d35400", zIndex:10, fontSize:16,paddingLeft: 10}}>Déverrouiller ce pack pour <span style={{color:"#f39c12", fontSize: 17}}>2,49 €</span></p>
+                    <p style={{color: "#d35400", zIndex:10, fontSize:16,paddingLeft: 6}}>Déverrouillez ce pack pour <span style={{color:"#f39c12", fontSize: 17}}>2,49 €</span></p>
                     </div>
                     {/* <p style={{color: "#2ecc7170", fontWeight:"bold"}}>Package Lock</p> */}
                 </div>   
@@ -180,12 +180,12 @@ class Theme extends React.Component {
 
               <div className="swiper-slide" style={{backgroundColor:'transparent'}}>
                 <img src={logo_edm} alt='' style={{borderRadius:16}}/>
-                <h1 style={{position:"absolute",  bottom: 150, left: '25%',color: "#fff", zIndex:2, fontSize:28, fontWeight:"bold"}}>EDM City</h1>
+                <h1 style={{position:"absolute",  bottom: 150, left: '25%',color: "#fff", zIndex:2, fontSize:28, fontWeight:"bold"}}>EDM London</h1>
                   <Icon size={50} icon={lock} style={{color: '#cdcdcd94',position:"absolute",  top: 35, left: "50%"}}/>  
                   <div style={{position:"absolute",  top: 180, left: "5%", width:"90%"}}>
                     <div className="d-inline-flex">
                     <Icon size={25} icon={shoppingCart} style={{color: '#cdcdcd'}}/>
-                    <p style={{color: "#d35400", zIndex:10, fontSize:16,paddingLeft: 10}}>Déverrouiller ce pack pour <span style={{color:"#f39c12", fontSize: 17}}>3,99 €</span></p>
+                    <p style={{color: "#d35400", zIndex:10, fontSize:16,paddingLeft: 6}}>Déverrouillez ce pack pour <span style={{color:"#f39c12", fontSize: 17}}>3,99 €</span></p>
                   </div>
                     {/* <p style={{color: "#2ecc71"}}>autem voluptas ratione? Autem, maiores dolores?</p> */}
                 </div>
