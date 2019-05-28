@@ -12,7 +12,7 @@ import { Icon } from 'react-icons-kit';
 import {ic_keyboard_arrow_left} from 'react-icons-kit/md/ic_keyboard_arrow_left';
 import {ic_more_vert} from 'react-icons-kit/md/ic_more_vert';
 import logo from './img/user.jpg';
-import NewSound from './img/logo_sound.jpeg';
+// import NewSound from './img/logo_sound.jpeg';
 import Api from "../components/utils/Api";
 import User from '../components/utils/user/User';
 
