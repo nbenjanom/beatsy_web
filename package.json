@@ -18,7 +18,7 @@
     "react-stopwatch": "^2.0.3",
     "react-timer-machine": "^1.0.2",
     "styled-components": "^4.2.0",
-    "swiper": "^4.5.0"
+    "swiper": "^6.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
